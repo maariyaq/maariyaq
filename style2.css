@@ -1,0 +1,13 @@
+body {
+    background-image: url("home_4.png");
+    background-size: 100%;
+}
+
+#off {
+    display: none;
+}
+@media (max-width: 992px) {
+    #home-body {
+        background-size: 100% 100%;
+    }
+}

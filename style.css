@@ -1,0 +1,285 @@
+* {
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #0D2E4A;
+}
+
+h3 {
+    font-family: Brush Script MT;
+    color: white
+}
+
+p, li {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+a {
+    color: #0F084B;
+}
+
+/* NAVBAR STYLING, referenced from W3 Schools */
+/* Navbar container */
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    z-index: 1;
+}
+/* Links inside the navbar */
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  margin: 0px; /* Important for vertical align on mobile phones */
+}
+/* Add a background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #0D2E4A;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #A1BFD8;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: Brush Script MT;
+    top: 200px;
+    left: 35%;
+    color: white;
+    width: 30%;
+}
+/* MARTIAL ARTS PAGE STYLING */
+
+.karate {
+    background-color: #0D2E4A;
+    color:#E8DAB2;
+}
+
+.karate h3 {
+    padding-top: 25px;
+}
+.weapons img{
+    width: 15%;
+    border-radius: 5px;
+    margin: 15px;
+}
+.weapons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .karateBlurb img{
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px;
+}
+.karateBlurb p{
+    width: 45%;
+} 
+
+.karateBlurb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#caption {
+    text-align: center;
+}
+#sai:hover, #bo:hover, #nunchaku:hover {
+    background-color: #1F7A8C;
+}
+/* STEM SLIDESHOW STYLING, referenced from the CSS Only Carousel from SkillThrive*/
+.container {
+    padding: 16px;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 8px;
+    -ms-overflow-style: none; /* Hide scrollbar IE and Edge */
+	scrollbar-width: none; /* Hide scrollbar Firefox */
+}
+.slider: ::-webkit-scrollbar {
+    display: none;
+}
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 1;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.article-button {
+    background-color: #1F7A8C;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.article-button:hover {
+    background-color: #0F084B;
+}
+
+.article-button a{
+    color: #E8DAB2;
+}
+/* PROFESSIONAL EXPERIENCE STYLING */
+.beingme, .gala, .ymsisters {
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+.beingme:hover, .gala:hover, .ymsisters:hover{
+    font-weight: bold;
+}
+
+.beingme img, .gala img, .ymsisters img {
+    width: 25%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.beingme img {
+    background-color: black;
+    padding: 50px 15px;
+}
+
+.beingme p, .gala p, .ymsisters p, .gala li{
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Contact Page Styling */
+
+#first-name, #email, #subject, #inquiry {
+    margin-bottom: 70px;
+}
+
+#contactHeader {
+    margin: auto;
+}
+
+form {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+.submit {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #1F7A8C;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.submit:hover {
+    background-color: #0D2E4A;
+}
+form input, textarea {
+    border-color: transparent;
+}
+
+/* Flexbox styling */
+.karate-container {
+    display: flex;
+}
+@media (max-width: 992px) {
+    .karateBlurb, .weapons, .beingme, .gala, .ymsisters {
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .karateBlurb img, .weapons img {
+        width: 50%;
+        justify-content: center;
+    }
+    .beingme p, .gala p, .ymsisters p {
+        margin-bottom: 50px;
+    }
+    #contact-body{
+        background-size: 100% 100%;
+    }
+}
