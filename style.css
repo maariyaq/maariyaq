@@ -4,6 +4,9 @@
     box-sizing: border-box;
     
 }
+#secret {
+   display: none;
+}
 
 body {
     background-color: #0D2E4A;
