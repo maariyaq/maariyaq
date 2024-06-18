@@ -13,6 +13,6 @@ function hideColor (){
     image.style.display = 'none';
 }
 
-revealButton.addEventListener('click', changeBackground);
-hideButton.addEventListener('click', hideColor);
+// revealButton.addEventListener('click', changeBackground);
+// hideButton.addEventListener('click', hideColor);
 
